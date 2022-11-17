@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bangers', cursive;
+}
+
+.hero{
+    display: none;
+}
+
+input{
+    margin-bottom: .5em;
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+#controls{
+    font-size: 1.2rem;
+    margin: 1em;
+    
+}
+
+#controls p{
+    font-size: 2rem;
+    margin-bottom: .3em;
+}
+
+#canvas1{
+    box-shadow: inset 5px 5px 5px black;
+    border: 1px solid black;
+    background-color: grey;
+    
+}
+

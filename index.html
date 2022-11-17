@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Knight Movement Test</title>
+</head>
+<body>
+    <img src="./images/Idle.png"  class="hero" alt="" srcset="">
+    <img src="./images/Run.png"  class="hero" alt="" srcset="">
+    <img src="./images/Attack1.png"  class="hero" alt="" srcset="">
+    <img src="./images/Attack2.png"  class="hero" alt="" srcset="">
+    <img src="./images/Attack3.png"  class="hero" alt="" srcset="">
+    <img src="./images/Going Down.png"  class="hero" alt="" srcset="">
+    <img src="./images/Going Up.png"  class="hero" alt="" srcset="">
+    <img src="./images/Take Hit.png"  class="hero" alt="" srcset="">
+    <img src="./images/Death.png"  class="hero" alt="" srcset="">
+
+    
+    <div id="container">
+        <div id="controls">
+            <p>Play animations</p>
+            <input type="radio" name="animation" id="idle" checked>
+            <label for="idle">Idle</label><br>
+
+            <input type="radio" name="animation" id="run" >
+            <label for="run">Run</label><br>
+
+            <input type="radio" name="animation" id="attack1" >
+            <label for="attack1">Attack 1</label>  <br> 
+
+            <input type="radio" name="animation" id="attack2" >
+            <label for="attack2">Attack 2</label><br>
+
+            <input type="radio" name="animation" id="attack3" >
+            <label for="attack3">Attack 3</label><br>
+
+            <input type="radio" name="animation" id="down" >
+            <label for="down">Going Down</label><br>
+
+            <input type="radio" name="animation" id="up" >
+            <label for="up">Going Up</label><br>
+
+            <input type="radio" name="animation" id="takeHit" >
+            <label for="takeHit">Take Hit</label><br>
+
+            <input type="radio" name="animation" id="death" >
+            <label for="death">Death</label><br>
+            
+        </div>
+        <canvas id="canvas1"></canvas>
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
